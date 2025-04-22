@@ -2,12 +2,12 @@
 
 # сборка
 ```bash
-docker build -t myapp .
+docker build -t myapp:v1 .
 ```
 
 # запуск
 ```bash
-docker run --rm myapp
+docker run --rm myapp:v1
 ```
 
 ожидаемый вывод
@@ -32,7 +32,7 @@ docker run --rm myapp
 # проверка содержимого контейнера
 ```bash
 # запускаем sh в контенере
-docker run -it --rm myapp sh
+docker run -it --rm myapp:v1 sh
 # выполняем команду в контейнере
 ls -alt
 ```
