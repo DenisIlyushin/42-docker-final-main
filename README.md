@@ -45,4 +45,3 @@ drwxr-xr-x    1 appuser  appuser       4096 Apr 22 19:26 .
 -rwxr-xr-x    1 appuser  appuser    8954358 Apr 22 19:22 app
 -rwxr-xr-x    1 appuser  appuser      61440 Feb 14  2024 tracker.db
 ```
-
